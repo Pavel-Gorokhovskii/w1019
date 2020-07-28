@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Model;
-
 
 use mysqli;
 use TexLab\MyDB\DbEntity;

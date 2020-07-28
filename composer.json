@@ -9,11 +9,17 @@
   },
   "require": {
     "texlab/mydb": "^0.0.4",
-    "texlab/html": "^0.03.0"
+    "texlab/html": "^0.03.0",
+    "squizlabs/php_codesniffer": "3.*"
   },
   "scripts": {
     "idb": "php install/install.php",
-    "rs": "php -S localhost:8000 -t public/"
-
+    "rs": "php -S localhost:8000 -t public/",
+    "codestyle": "phpcs",
+    "codestylefix": "phpcbf",
+    "psalm": "psalm"
+  },
+  "require-dev": {
+    "vimeo/psalm": "^3.12"
   }
 }

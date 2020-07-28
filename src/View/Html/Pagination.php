@@ -1,8 +1,6 @@
 <?php
 
-
 namespace View\Html;
-
 
 class Pagination extends AbstractTag
 {

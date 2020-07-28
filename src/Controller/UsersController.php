@@ -49,7 +49,8 @@ class UsersController extends AbstractTableController
             ->setFolder('users')
             ->addData([
                 'groupNames' => $this->table->getGroupNames()
-            ]);;
+            ]);
+        ;
     }
     public function actionAdd(array $data)
     {

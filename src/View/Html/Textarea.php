@@ -2,7 +2,6 @@
 
 namespace View\Html;
 
-
 class Textarea extends AbstractTag
 {
     protected $row = " row='50'";

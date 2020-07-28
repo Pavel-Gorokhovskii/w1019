@@ -13,12 +13,12 @@ abstract class AbstractController
         $this->view = $view;
     }
 
-    protected function redirect(string $location)
+    protected function redirect(string $location): void
     {
         header("Location: $location");
     }
 
-    protected function getClassName()
+    protected function getClassName(): string
     {
         preg_match(
             '/(.*)Controller$/',

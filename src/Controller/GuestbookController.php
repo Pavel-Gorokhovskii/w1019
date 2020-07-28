@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Controller;
-
 
 use Core\Config;
 

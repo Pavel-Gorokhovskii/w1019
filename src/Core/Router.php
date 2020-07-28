@@ -5,7 +5,6 @@ namespace Core;
 use Controller\TableController;
 use View\View;
 
-
 class Router
 {
     protected $view;
@@ -29,7 +28,6 @@ class Router
         $this->view->setLayout('mainLayout');
 
         if (!in_array($_GET['type'], $blockList[$cod])) {
-            
             if (class_exists($this->controllerName)) {
                 $controller = new $this->controllerName(
                     $this->view
